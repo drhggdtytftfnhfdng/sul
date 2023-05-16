@@ -1,0 +1,275 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    width: 1920px;
+    height: 1080px;
+}
+.img-1{
+    width: 200px;
+    padding-left: 100px;
+}
+.img-2{
+    width: 25px;
+    padding-top: 3px;
+}
+.boss_flex-1{
+    display: flex;
+}
+.flex-1{
+    margin: 0;
+}
+.Navigation{
+    display: flex;
+    list-style: none;
+    padding-top:88px;
+    margin-left: 100px;
+    margin: 0;
+    width: 800px;
+}
+.flex_a{
+    cursor: pointer;
+}
+.flex_a:hover{
+    color: gray;
+}
+.flex_li-1{
+        padding-left: 60px;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(255, 155, 5);
+        font-family: 'Times New Roman', Times, serif;
+}
+.Navigation li {
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(255, 155, 5);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Search_1{
+ padding-left: 300px;
+ padding-top: 80px;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchTerm {
+    width: 300px;
+    border: 3px solid rgb(255, 155, 5);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchTerm:focus {
+    color: black;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(255, 155, 5);
+    background: rgb(255, 155, 5);
+    text-align: center;
+    color: #eeeeee;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Slogan_and_Target{
+    list-style: none;
+    width: 500px;
+    margin: 0;
+    padding-top: 180px;
+    padding-right: 300px;
+}
+.target{
+    color:rgb(194, 133, 41) ;
+    font-size: 30px;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.slogan{
+        color: rgb(153, 92, 0);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+}
+.super_flex{
+    display: flex;
+}
+.super_img{
+    padding-left: 100px;
+}
+.flex-2{
+    list-style: none;
+    text-align: center;
+}
+.Slogan_1{
+    color: rgb(250, 151, 2);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 50px;
+}
+.forma{
+    color: rgb(250, 151, 2);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        text-align: center;
+}
+.region-flex{
+    list-style: none;
+    display: flex;
+    padding-left: 850px;
+}
+.region-flex li {
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.data_flex{
+    list-style: none;
+    display: flex;
+    padding-left: 823px;
+    padding-bottom: 20px;
+    
+}
+.data_flex li{
+    margin: 0;
+    padding-right: 10px;
+}
+.god_flex{
+    list-style: none;
+    display: flex;
+    padding-left: 781px;
+    padding-bottom: 20px;
+}
+.god_flex li {
+    margin: 0;
+    padding-right: 10px;
+}
+.button-1{
+    text-align: center;
+}
+.button-1 button{
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px solid orange;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.button-1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+.Sammer{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(250, 151, 2);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+.tour{
+    list-style: none;
+    display: flex;
+}
+.tour img {
+    width: 500px;
+}
+.tour p{
+    text-align: center;
+    color: rgb(158, 96, 3);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tour button{
+    background-color: orange;
+    border: 1px solid orange;
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+.email{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.email li{
+    margin: 0;
+}
+.sub{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(250, 151, 2);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button-2{
+    background-color: orange;
+        border: 1px solid orange;
+        width: 120px;
+        height: 30px;
+        font-weight: 600;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 900px;
+        margin-top: 20px;
+        margin-bottom: 200px;
+}
+footer{
+    background-color: rgb(250, 151, 2);
+    width: 1920px;
+    height: 200px;
+}
+.phone{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+.Navigation_footer{
+    display: flex;
+        list-style: none;
+        padding-top: 88px;
+        padding-left: 50px;
+        margin: 0;
+        width: 800px;
+        font-weight: 600;
+}
+.Navigation_footer li {
+    margin:0;
+    cursor: pointer;
+}
+.Navigation_footer li:hover{
+    color:gray
+    
+}
+.p50px{
+    padding-left: 50px;
+}
+.flex-3{
+    display: flex;
+}
